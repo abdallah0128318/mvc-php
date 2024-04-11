@@ -2,11 +2,11 @@
 This project just was to learn and understand how MVC design pattern works.
 ----
 ## Features
-1. Created MVC structure that consists of Models Views Controllers.
-2. created a routing system.
-3. Introduce migrateions and database schema not to create DB structure each time you clone the project.
-4. created public folders to make assets accessable by the browser through .htaccess file.
-5. created a simple authentication system with data validation and validation rules to validate input data.
+1. Created Models and Controllers file structure.
+2. created Views and public folders to make assets accessable by the browser through '.htaccess' file.
+3. created a routing system and middlwares to be executed during the request-response lifecycle.
+4. created a simple authentication system with data validation and validation rules to validate input data.
+5. created migrations and database schema not to create DB structure each time you clone the project.
 
 ----
 ## Installation
