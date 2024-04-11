@@ -1,10 +1,12 @@
-# PHP MVC framework
-Minimalistic custom framework created for educational purposes.
-
-
-
-## The framework is not well tested on production. If you use it on production you use it on your own risk.
-**Related core package**: https://github.com/thecodeholic/tc-php-mvc-core
+# PHP MVC framework not for production
+This project just was to learn and understand how MVC design pattern works.
+----
+## Features
+1. Created MVC structure that consists of Models Views Controllers.
+2. created a routing system.
+3. Introduce migrateions and database schema not to create DB structure each time you clone the project.
+4. created public folders to make assets accessable by the browser through .htaccess file.
+5. created a simple authentication system with data validation and validation rules to validate input data.
 
 ----
 ## Installation
@@ -18,17 +20,3 @@ Minimalistic custom framework created for educational purposes.
 7. Start php server by running command `php -S 127.0.0.1:8080` 
 8. Open in browser http://127.0.0.1:8080
 
-------
-## Installation using docker
-Make sure you have docker installed. To see how you can install docker on Windows [click here](https://youtu.be/2ezNqqaSjq8). <br>
-Make sure `docker` and `docker-compose` commands are available in command line.
-
-1. Clone the project using git
-1. Copy `.env.example` into `.env` (Don't need to change anything for local development)
-1. Navigate to the project root directory and run `docker-compose up -d`
-1. Install dependencies - `docker-compose exec app composer install`
-1. Run migrations - `docker-compose exec app php migrations.php`
-8. Open in browser http://127.0.0.1:8080
-
-> The project was created along with Youtube Video Series "[Build PHP MVC Framework](https://www.youtube.com/playlist?list=PLLQuc_7jk__Uk_QnJMPndbdKECcTEwTA1)". 
-> I appreaciate if you share it.
